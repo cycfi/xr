@@ -11,3 +11,6 @@ content than even the bright Stratocaster pickup (which has frequency response t
 around 5KHz.) On the low end of the audio spectrum you get tight, well-defined and focused bass 
 all the way down to 20Hz.
 
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 
+International License](http://creativecommons.org/licenses/by-nc/4.0/).
+
