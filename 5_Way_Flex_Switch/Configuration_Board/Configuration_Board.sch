@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -418,8 +418,6 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="57.15" y1="137.795" x2="58.42" y2="139.065" width="0.1524" layer="94" curve="90"/>
 <wire x1="58.42" y1="139.065" x2="60.96" y2="139.065" width="0.1524" layer="94"/>
 <wire x1="45.72" y1="146.685" x2="45.72" y2="139.065" width="0.1524" layer="94"/>
-<text x="49.53" y="134.62" size="1.778" layer="95">IC(C-)</text>
-<text x="49.53" y="148.9075" size="1.778" layer="95">OC(C+) </text>
 <wire x1="58.42" y1="127.635" x2="60.96" y2="127.635" width="0.1524" layer="94"/>
 <wire x1="58.42" y1="127.635" x2="57.15" y2="128.905" width="0.1524" layer="94" curve="90"/>
 <wire x1="57.15" y1="128.905" x2="55.88" y2="127.635" width="0.1524" layer="94" curve="90"/>
@@ -2791,12 +2789,6 @@ Copyright CYCFI Research Inc. 2013-2016</text>
 <vertex x="235.1615625" y="25.047221875"/>
 <vertex x="232.684540625" y="25.047221875"/>
 </polygon>
-<text x="49.53" y="129.8575" size="1.778" layer="95">OC(C+) </text>
-<text x="49.53" y="112.0775" size="1.778" layer="95">OC(C+) </text>
-<text x="49.53" y="91.7575" size="1.778" layer="95">OC(C+) </text>
-<text x="49.53" y="116.205" size="1.778" layer="95">IC(C-)</text>
-<text x="49.53" y="78.105" size="1.778" layer="95">IC(C-)</text>
-<text x="49.53" y="97.79" size="1.778" layer="95">IC(C-)</text>
 <text x="69.5325" y="69.215" size="1.778" layer="95">NOTES:
 *OC(C+) = Outer coil terminal
 *IC(C-) = Inner coil terminal</text>
@@ -2807,19 +2799,27 @@ Copyright CYCFI Research Inc. 2013-2016</text>
 <text x="225.425" y="117.475" size="1.778" layer="95" rot="MR0">B1</text>
 <text x="225.425" y="109.855" size="1.778" layer="95" rot="MR0">N2</text>
 <text x="207.3275" y="129.8575" size="2.54" layer="95">PINOUT</text>
-<text x="189.5475" y="122.2375" size="1.778" layer="95">PU1-IC(C-)</text>
-<text x="222.25" y="122.555" size="1.778" layer="95">PU1-OC(C+)</text>
-<text x="189.5475" y="119.6975" size="1.778" layer="95">PU2-IC(C-)</text>
-<text x="222.25" y="120.015" size="1.778" layer="95">PU2-OC(C+)</text>
-<text x="189.5475" y="117.1575" size="1.778" layer="95">PU3-IC(C-)</text>
-<text x="189.5475" y="114.6175" size="1.778" layer="95">PU3-OC(C+)</text>
-<text x="189.5475" y="112.0775" size="1.778" layer="95">PU4-IC(C-)</text>
-<text x="189.5475" y="109.5375" size="1.778" layer="95">PU4-OC(C+)</text>
+<text x="195.2625" y="122.2375" size="1.778" layer="95">PU1-IC</text>
+<text x="222.25" y="122.555" size="1.778" layer="95">PU1-OC</text>
+<text x="195.2625" y="119.6975" size="1.778" layer="95">PU2-IC</text>
+<text x="222.25" y="120.015" size="1.778" layer="95">PU2-OC</text>
+<text x="195.2625" y="117.1575" size="1.778" layer="95">PU3-IC</text>
+<text x="195.2625" y="114.6175" size="1.778" layer="95">PU3-OC</text>
+<text x="195.2625" y="112.0775" size="1.778" layer="95">PU4-IC</text>
+<text x="195.2625" y="109.5375" size="1.778" layer="95">PU4-OC</text>
 <text x="222.25" y="107.315" size="1.778" layer="95">COM2</text>
 <circle x="215.265" y="124.46" radius="0.4490125" width="0.1524" layer="95"/>
 <wire x1="162.56" y1="35.56" x2="152.4" y2="35.56" width="0.1524" layer="94" style="longdash"/>
 <wire x1="152.4" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="94" style="longdash"/>
 <wire x1="152.4" y1="35.56" x2="152.4" y2="180.34" width="0.1524" layer="94" style="longdash"/>
+<text x="52.07" y="135.5725" size="1.778" layer="95">IC</text>
+<text x="52.07" y="148.2725" size="1.778" layer="95">OC</text>
+<text x="52.07" y="116.5225" size="1.778" layer="95">IC</text>
+<text x="52.07" y="129.2225" size="1.778" layer="95">OC</text>
+<text x="52.07" y="98.7425" size="1.778" layer="95">IC</text>
+<text x="52.07" y="111.4425" size="1.778" layer="95">OC</text>
+<text x="52.07" y="78.4225" size="1.778" layer="95">IC</text>
+<text x="52.07" y="91.1225" size="1.778" layer="95">OC</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

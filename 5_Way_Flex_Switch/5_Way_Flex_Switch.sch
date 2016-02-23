@@ -4022,14 +4022,14 @@ Metric Code Size 5664</description>
 <library name="CYCFI_Module_castellated">
 <packages>
 <package name="CONFIGURATION_BRD">
-<wire x1="-8.39" y1="-2.54" x2="8.39" y2="-2.54" width="0.127" layer="22"/>
-<wire x1="8.39" y1="-2.54" x2="8.89" y2="-2.04" width="0.127" layer="22" curve="90"/>
-<wire x1="8.89" y1="-2.04" x2="8.89" y2="2.04" width="0.127" layer="22"/>
-<wire x1="8.89" y1="2.04" x2="8.39" y2="2.54" width="0.127" layer="22" curve="90"/>
-<wire x1="8.39" y1="2.54" x2="-8.39" y2="2.54" width="0.127" layer="22"/>
-<wire x1="-8.39" y1="2.54" x2="-8.89" y2="2.04" width="0.127" layer="22" curve="90"/>
-<wire x1="-8.89" y1="2.04" x2="-8.89" y2="-2.04" width="0.127" layer="22"/>
-<wire x1="-8.89" y1="-2.04" x2="-8.39" y2="-2.54" width="0.127" layer="22" curve="90"/>
+<wire x1="-8.39" y1="-2.54" x2="8.39" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="8.39" y1="-2.54" x2="8.89" y2="-2.04" width="0.127" layer="21" curve="90"/>
+<wire x1="8.89" y1="-2.04" x2="8.89" y2="2.04" width="0.127" layer="21"/>
+<wire x1="8.89" y1="2.04" x2="8.39" y2="2.54" width="0.127" layer="21" curve="90"/>
+<wire x1="8.39" y1="2.54" x2="-8.39" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-8.39" y1="2.54" x2="-8.89" y2="2.04" width="0.127" layer="21" curve="90"/>
+<wire x1="-8.89" y1="2.04" x2="-8.89" y2="-2.04" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-2.04" x2="-8.39" y2="-2.54" width="0.127" layer="21" curve="90"/>
 <smd name="1-IC" x="-7.62" y="-2.54" dx="1.27" dy="1.27" layer="16" rot="R90"/>
 <smd name="2-IC" x="-5.08" y="-2.54" dx="1.27" dy="1.27" layer="16" rot="R90"/>
 <smd name="3-IC" x="-2.54" y="-2.54" dx="1.27" dy="1.27" layer="16" rot="R90"/>
@@ -4241,22 +4241,20 @@ DIN A4, landscape with extra doc field</description>
 <plain>
 <text x="82.9975" y="153.9875" size="1.778" layer="125">VBATT</text>
 <text x="129.2225" y="114.935" size="1.778" layer="95">CONFIGURATION BOARD</text>
-<text x="123.825" y="110.8075" size="1.778" layer="95">PU1-IC(C-)</text>
-<text x="148.59" y="111.125" size="1.778" layer="95">PU1-OC(C+)</text>
-<text x="123.825" y="108.2675" size="1.778" layer="95">PU2-IC(C-)</text>
-<text x="148.59" y="108.2675" size="1.778" layer="95">PU2-OC(C+)</text>
-<text x="123.825" y="105.7275" size="1.778" layer="95">PU3-IC(C-)</text>
-<text x="123.825" y="103.1875" size="1.778" layer="95">PU3-OC(C+)</text>
-<text x="123.825" y="100.6475" size="1.778" layer="95">PU4-IC(C-)</text>
-<text x="123.825" y="98.1075" size="1.778" layer="95">PU4-OC(C+)</text>
+<text x="129.54" y="110.8075" size="1.778" layer="95">PU1-IC</text>
+<text x="148.59" y="111.125" size="1.778" layer="95">PU1-OC</text>
+<text x="129.54" y="108.2675" size="1.778" layer="95">PU2-IC\</text>
+<text x="148.59" y="108.2675" size="1.778" layer="95">PU2-OC</text>
+<text x="129.54" y="105.7275" size="1.778" layer="95">PU3-IC</text>
+<text x="129.54" y="103.1875" size="1.778" layer="95">PU3-OC</text>
+<text x="129.54" y="100.6475" size="1.778" layer="95">PU4-IC</text>
+<text x="129.54" y="98.1075" size="1.778" layer="95">PU4-OC</text>
 <text x="156.845" y="151.4475" size="1.778" layer="95">PWR
 SWITCH</text>
-<text x="83.82" y="151.4475" size="1.778" layer="95">-(SW)</text>
-<text x="84.1375" y="121.285" size="1.778" layer="95">PASSIVE
-PICKUP INPUTS</text>
+<text x="87.63" y="151.4475" size="1.778" layer="95">SW</text>
 <text x="31.4325" y="104.14" size="1.778" layer="95">NOTES:
-*OC(C+) = Outer coil terminal
-*IC(C-) = Inner coil terminal</text>
+*OC = Outer coil terminal
+*IC = Inner coil terminal</text>
 <wire x1="95.25" y1="115.57" x2="96.52" y2="115.57" width="0.1524" layer="94"/>
 <wire x1="96.52" y1="115.57" x2="100.33" y2="115.57" width="0.1524" layer="94"/>
 <wire x1="95.25" y1="113.03" x2="100.33" y2="113.03" width="0.1524" layer="94"/>
@@ -4305,18 +4303,9 @@ PICKUP INPUTS</text>
 <text x="91.7575" y="104.14" size="1.778" layer="95">PU2</text>
 <text x="91.7575" y="88.9" size="1.778" layer="95">PU3</text>
 <text x="91.7575" y="73.66" size="1.778" layer="95">PU4</text>
-<text x="82.2325" y="114.935" size="1.778" layer="95">OC(C+)</text>
-<text x="82.2325" y="112.0775" size="1.778" layer="95">GND(-)</text>
-<text x="82.2325" y="109.22" size="1.778" layer="95">IC(C-)</text>
-<text x="82.2325" y="100.33" size="1.778" layer="95">OC(C+)</text>
-<text x="82.2325" y="97.4725" size="1.778" layer="95">GND(-)</text>
-<text x="82.2325" y="94.615" size="1.778" layer="95">IC(C-)</text>
-<text x="82.2325" y="85.09" size="1.778" layer="95">OC(C+)</text>
-<text x="82.2325" y="82.2325" size="1.778" layer="95">GND(-)</text>
-<text x="82.2325" y="79.375" size="1.778" layer="95">IC(C-)</text>
-<text x="82.2325" y="69.85" size="1.778" layer="95">OC(C+)</text>
-<text x="82.2325" y="66.9925" size="1.778" layer="95">GND(-)</text>
-<text x="82.2325" y="64.135" size="1.778" layer="95">IC(C-)</text>
+<text x="87.63" y="114.935" size="1.778" layer="95">OC</text>
+<text x="86.0425" y="112.0775" size="1.778" layer="95">GND</text>
+<text x="87.9475" y="109.22" size="1.778" layer="95">IC</text>
 <wire x1="160.02" y1="75.565" x2="161.29" y2="75.565" width="0.1524" layer="94"/>
 <wire x1="161.29" y1="75.565" x2="165.1" y2="75.565" width="0.1524" layer="94"/>
 <wire x1="160.02" y1="73.025" x2="165.1" y2="73.025" width="0.1524" layer="94"/>
@@ -4328,11 +4317,10 @@ PICKUP INPUTS</text>
 <wire x1="156.21" y1="78.105" x2="161.29" y2="78.105" width="0.4064" layer="94"/>
 <wire x1="156.21" y1="67.945" x2="161.29" y2="67.945" width="0.4064" layer="94"/>
 <wire x1="161.29" y1="67.945" x2="161.29" y2="78.105" width="0.4064" layer="94"/>
-<text x="153.67" y="79.375" size="1.778" layer="95">BLEND 
-CONTROL</text>
+<text x="154.94" y="78.74" size="1.778" layer="95">BLEND</text>
 <text x="150.495" y="74.93" size="1.778" layer="95">PU1</text>
 <text x="150.495" y="72.39" size="1.778" layer="95">PU3</text>
-<text x="146.685" y="69.85" size="1.778" layer="95">GND(-)</text>
+<text x="150.495" y="69.85" size="1.778" layer="95">GND</text>
 <wire x1="229.87" y1="99.06" x2="228.6" y2="99.06" width="0.1524" layer="94"/>
 <wire x1="228.6" y1="99.06" x2="224.79" y2="99.06" width="0.1524" layer="94"/>
 <wire x1="229.87" y1="96.52" x2="224.79" y2="96.52" width="0.1524" layer="94"/>
@@ -4345,9 +4333,7 @@ CONTROL</text>
 <wire x1="228.6" y1="93.98" x2="228.6" y2="101.6" width="0.4064" layer="94"/>
 <text x="234.315" y="98.425" size="1.778" layer="95">OUT+</text>
 <text x="234.315" y="95.885" size="1.778" layer="95">OUT-</text>
-<text x="222.25" y="102.87" size="1.778" layer="95">ACTIVE VOLUME
-INPUT SIGNAL</text>
-<text x="91.1225" y="158.115" size="1.778" layer="95">BATT</text>
+<text x="222.25" y="102.87" size="1.778" layer="95"></text>
 <wire x1="152.0825" y1="142.24" x2="150.8125" y2="142.24" width="0.1524" layer="94"/>
 <wire x1="150.8125" y1="142.24" x2="147.0025" y2="142.24" width="0.1524" layer="94"/>
 <wire x1="152.0825" y1="139.7" x2="147.0025" y2="139.7" width="0.1524" layer="94"/>
@@ -4359,11 +4345,11 @@ INPUT SIGNAL</text>
 <wire x1="155.8925" y1="144.78" x2="150.8125" y2="144.78" width="0.4064" layer="94"/>
 <wire x1="155.8925" y1="134.62" x2="150.8125" y2="134.62" width="0.4064" layer="94"/>
 <wire x1="150.8125" y1="134.62" x2="150.8125" y2="144.78" width="0.4064" layer="94"/>
-<text x="147.32" y="128.905" size="1.778" layer="95">ACTIVE 
-VOLUME PWR</text>
-<text x="156.845" y="139.065" size="1.778" layer="95">VCC(+)</text>
-<text x="156.845" y="136.525" size="1.778" layer="95">-(SW)</text>
-<text x="156.845" y="141.9225" size="1.778" layer="95">GND(-)</text>
+<text x="148.59" y="128.905" size="1.778" layer="95">ACTIVE 
+VOL PWR</text>
+<text x="156.845" y="139.065" size="1.778" layer="95">VCC</text>
+<text x="156.845" y="136.525" size="1.778" layer="95">SW</text>
+<text x="156.845" y="141.9225" size="1.778" layer="95">GND</text>
 <text x="156.845" y="148.9075" size="1.778" layer="95">STRING GND</text>
 <wire x1="50.8" y1="98.7425" x2="53.34" y2="98.7425" width="0.1524" layer="94"/>
 <wire x1="50.8" y1="98.7425" x2="49.53" y2="100.0125" width="0.1524" layer="94" curve="90"/>
@@ -4386,8 +4372,8 @@ VOLUME PWR</text>
 <wire x1="49.53" y1="89.8525" x2="50.8" y2="91.1225" width="0.1524" layer="94" curve="90"/>
 <wire x1="50.8" y1="91.1225" x2="53.34" y2="91.1225" width="0.1524" layer="94"/>
 <wire x1="38.1" y1="98.7425" x2="38.1" y2="91.1225" width="0.1524" layer="94"/>
-<text x="53.975" y="90.4875" size="1.778" layer="95">IC(C-)</text>
-<text x="53.975" y="98.1075" size="1.778" layer="95">OC(C+) </text>
+<text x="53.975" y="90.4875" size="1.778" layer="95">IC</text>
+<text x="53.975" y="98.1075" size="1.778" layer="95">OC</text>
 <text x="177.8" y="19.05" size="2.54" layer="95">5 Way Flex Switch</text>
 <text x="252.73" y="6.985" size="2.1844" layer="95">v1.1</text>
 <text x="7.62" y="12.7" size="2.54" layer="95">5 Way Flex Switch Project by Cycfi Research is licensed under a 
@@ -6613,6 +6599,15 @@ Copyright CYCFI Research Inc. 2013-2016</text>
 <vertex x="235.1615625" y="25.047221875"/>
 <vertex x="232.684540625" y="25.047221875"/>
 </polygon>
+<text x="87.3125" y="100.33" size="1.778" layer="95">OC</text>
+<text x="85.725" y="97.4725" size="1.778" layer="95">GND</text>
+<text x="87.63" y="94.615" size="1.778" layer="95">IC</text>
+<text x="87.3125" y="85.09" size="1.778" layer="95">OC</text>
+<text x="85.725" y="82.2325" size="1.778" layer="95">GND</text>
+<text x="87.63" y="79.375" size="1.778" layer="95">IC</text>
+<text x="87.3125" y="69.85" size="1.778" layer="95">OC</text>
+<text x="85.725" y="66.9925" size="1.778" layer="95">GND</text>
+<text x="87.63" y="64.135" size="1.778" layer="95">IC</text>
 </plain>
 <instances>
 <instance part="C2" gate="G$1" x="123.19" y="149.86" smashed="yes">
@@ -6883,13 +6878,13 @@ Copyright CYCFI Research Inc. 2013-2016</text>
 <plain>
 <text x="178.7525" y="113.665" size="1.778" layer="95">OUT+</text>
 <text x="151.765" y="113.665" size="1.778" layer="95">OUT-</text>
-<text x="178.7525" y="108.585" size="1.778" layer="95">VCC(+)</text>
-<text x="178.7525" y="106.045" size="1.778" layer="95">-(SW)</text>
+<text x="178.7525" y="108.585" size="1.778" layer="95">VCC</text>
+<text x="178.7525" y="106.045" size="1.778" layer="95">SW</text>
 <text x="153.3525" y="108.585" size="1.778" layer="95">PU3</text>
 <text x="153.3525" y="106.045" size="1.778" layer="95">PU1</text>
-<text x="82.8675" y="113.665" size="1.778" layer="95">OC(C+)</text>
-<text x="82.8675" y="108.585" size="1.778" layer="95">IC(C-)</text>
-<text x="82.8675" y="111.125" size="1.778" layer="95">GND(-)</text>
+<text x="87.9475" y="113.665" size="1.778" layer="95">OC</text>
+<text x="88.5825" y="108.585" size="1.778" layer="95">IC</text>
+<text x="86.36" y="111.125" size="1.778" layer="95">GND</text>
 <text x="101.2825" y="117.7925" size="1.778" layer="95">H1</text>
 <text x="177.8" y="19.05" size="2.54" layer="95">5 Way Flex Switch</text>
 <text x="252.73" y="6.985" size="2.1844" layer="95">v1.1</text>
@@ -9116,31 +9111,30 @@ Copyright CYCFI Research Inc. 2013-2016</text>
 <vertex x="235.1615625" y="25.047221875"/>
 <vertex x="232.684540625" y="25.047221875"/>
 </polygon>
-<text x="82.8675" y="106.045" size="1.778" layer="95">OC(C+)</text>
-<text x="82.8675" y="100.965" size="1.778" layer="95">IC(C-)</text>
-<text x="82.8675" y="103.505" size="1.778" layer="95">GND(-)</text>
-<text x="113.9825" y="113.665" size="1.778" layer="95">OC(C+)</text>
-<text x="113.9825" y="108.585" size="1.778" layer="95">IC(C-)</text>
-<text x="113.9825" y="111.125" size="1.778" layer="95">GND(-)</text>
-<text x="113.9825" y="106.045" size="1.778" layer="95">OC(C+)</text>
-<text x="113.9825" y="100.965" size="1.778" layer="95">IC(C-)</text>
-<text x="113.9825" y="103.505" size="1.778" layer="95">GND(-)</text>
-<wire x1="82.55" y1="108.2675" x2="93.6625" y2="108.2675" width="0.1524" layer="95"/>
-<wire x1="111.4425" y1="108.2675" x2="122.8725" y2="108.2675" width="0.1524" layer="95"/>
-<wire x1="82.55" y1="115.8875" x2="93.6625" y2="115.8875" width="0.1524" layer="95"/>
-<wire x1="111.4425" y1="115.8875" x2="122.555" y2="115.8875" width="0.1524" layer="95"/>
-<wire x1="82.55" y1="100.6475" x2="93.6625" y2="100.6475" width="0.1524" layer="95"/>
-<wire x1="111.4425" y1="100.6475" x2="122.555" y2="100.6475" width="0.1524" layer="95"/>
-<text x="125.4125" y="109.855" size="1.778" layer="95" rot="R90">PU1</text>
-<text x="125.4125" y="101.9175" size="1.778" layer="95" rot="R90">PU2</text>
-<text x="81.5975" y="109.5375" size="1.778" layer="95" rot="R90">PU3</text>
-<text x="81.5975" y="102.235" size="1.778" layer="95" rot="R90">PU4</text>
-<text x="149.5425" y="111.125" size="1.778" layer="95">GND(-)</text>
-<text x="178.7525" y="111.125" size="1.778" layer="95">GND(-)</text>
-<wire x1="149.225" y1="113.3475" x2="160.3375" y2="113.3475" width="0.1524" layer="95"/>
-<wire x1="149.225" y1="105.7275" x2="160.3375" y2="105.7275" width="0.1524" layer="95"/>
-<text x="136.8425" y="106.9975" size="1.778" layer="95">BLEND 
-CONTROL</text>
+<text x="87.9475" y="106.045" size="1.778" layer="95">OC</text>
+<text x="88.5825" y="100.965" size="1.778" layer="95">IC</text>
+<text x="86.36" y="103.505" size="1.778" layer="95">GND</text>
+<text x="113.9825" y="113.665" size="1.778" layer="95">OC</text>
+<text x="113.9825" y="108.585" size="1.778" layer="95">IC</text>
+<text x="113.9825" y="111.125" size="1.778" layer="95">GND</text>
+<text x="113.9825" y="106.045" size="1.778" layer="95">OC</text>
+<text x="113.9825" y="100.965" size="1.778" layer="95">IC</text>
+<text x="113.9825" y="103.505" size="1.778" layer="95">GND</text>
+<wire x1="85.09" y1="108.2675" x2="93.6625" y2="108.2675" width="0.1524" layer="95"/>
+<wire x1="111.4425" y1="108.2675" x2="120.015" y2="108.2675" width="0.1524" layer="95"/>
+<wire x1="85.09" y1="115.8875" x2="93.6625" y2="115.8875" width="0.1524" layer="95"/>
+<wire x1="111.4425" y1="115.8875" x2="120.015" y2="115.8875" width="0.1524" layer="95"/>
+<wire x1="85.09" y1="100.6475" x2="93.6625" y2="100.6475" width="0.1524" layer="95"/>
+<wire x1="111.4425" y1="100.6475" x2="120.015" y2="100.6475" width="0.1524" layer="95"/>
+<text x="122.2375" y="109.855" size="1.778" layer="95" rot="R90">PU1</text>
+<text x="122.2375" y="101.9175" size="1.778" layer="95" rot="R90">PU2</text>
+<text x="84.7725" y="109.855" size="1.778" layer="95" rot="R90">PU3</text>
+<text x="84.7725" y="102.5525" size="1.778" layer="95" rot="R90">PU4</text>
+<text x="153.3525" y="111.125" size="1.778" layer="95">GND</text>
+<text x="178.7525" y="111.125" size="1.778" layer="95">GND</text>
+<wire x1="151.765" y1="113.3475" x2="160.3375" y2="113.3475" width="0.1524" layer="95"/>
+<text x="151.765" y="106.68" size="1.27" layer="95" rot="R90">BLEND </text>
+<wire x1="151.765" y1="105.7275" x2="160.3375" y2="105.7275" width="0.1524" layer="95"/>
 <wire x1="97.4725" y1="99.3775" x2="97.4725" y2="95.885" width="0.4064" layer="94"/>
 <wire x1="97.4725" y1="95.885" x2="107.6325" y2="95.885" width="0.4064" layer="94"/>
 <wire x1="107.6325" y1="95.885" x2="107.6325" y2="99.3775" width="0.4064" layer="94"/>
@@ -9149,12 +9143,21 @@ CONTROL</text>
 <wire x1="98.7425" y1="97.79" x2="93.6625" y2="97.79" width="0.1524" layer="94"/>
 <wire x1="106.3625" y1="97.79" x2="111.4425" y2="97.79" width="0.1524" layer="94"/>
 <text x="82.55" y="96.8375" size="1.778" layer="95">VBATT</text>
-<text x="114.3" y="96.8375" size="1.778" layer="95">-(SW)</text>
+<text x="114.3" y="96.8375" size="1.778" layer="95">SW</text>
 <text x="101.6" y="160.02" size="5.08" layer="95">OUTPUT HEADERS</text>
-<wire x1="176.2125" y1="113.3475" x2="187.325" y2="113.3475" width="0.1524" layer="95"/>
-<wire x1="176.53" y1="105.7275" x2="187.6425" y2="105.7275" width="0.1524" layer="95"/>
-<text x="188.595" y="107.315" size="1.778" layer="95">ACTIVE
-VOLUME PWR</text>
+<wire x1="176.2125" y1="113.3475" x2="184.785" y2="113.3475" width="0.1524" layer="95"/>
+<wire x1="176.53" y1="105.7275" x2="185.1025" y2="105.7275" width="0.1524" layer="95"/>
+<text x="189.5475" y="105.7275" size="1.27" layer="95" rot="R90">ACTIVE
+VOL PWR</text>
+<wire x1="85.09" y1="108.2675" x2="93.6625" y2="108.2675" width="0.1524" layer="95"/>
+<wire x1="85.09" y1="100.6475" x2="93.6625" y2="100.6475" width="0.1524" layer="95"/>
+<wire x1="111.4425" y1="115.8875" x2="120.015" y2="115.8875" width="0.1524" layer="95"/>
+<wire x1="111.4425" y1="108.2675" x2="120.015" y2="108.2675" width="0.1524" layer="95"/>
+<wire x1="111.4425" y1="100.6475" x2="120.015" y2="100.6475" width="0.1524" layer="95"/>
+<wire x1="151.765" y1="105.7275" x2="160.3375" y2="105.7275" width="0.1524" layer="95"/>
+<wire x1="151.765" y1="113.3475" x2="160.3375" y2="113.3475" width="0.1524" layer="95"/>
+<wire x1="176.2125" y1="113.3475" x2="184.785" y2="113.3475" width="0.1524" layer="95"/>
+<wire x1="176.53" y1="105.7275" x2="185.1025" y2="105.7275" width="0.1524" layer="95"/>
 </plain>
 <instances>
 <instance part="H2" gate="G$1" x="168.275" y="112.0775" smashed="yes">
