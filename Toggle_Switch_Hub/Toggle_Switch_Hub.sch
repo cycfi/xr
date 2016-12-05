@@ -4231,8 +4231,7 @@ GND</text>
 <text x="177.8" y="19.05" size="2.54" layer="95">Toggle Switch Hub</text>
 <text x="253.365" y="6.985" size="2.1844" layer="95">v1.1</text>
 <text x="7.62" y="12.7" size="2.54" layer="95">Toggle Switch Hub Project by Cycfi Research is licensed under a 
-Creative Commons Attribution-NonCommercial 4.0 International License. 
-http://creativecommons.org/licenses/by-nc/4.0/
+Creative Commons Attribution-ShareAlike 4.0 International License. 
 
 Copyright CYCFI Research Inc. 2013-2016</text>
 <text x="200.66" y="11.43" size="2.54" layer="95">2016038</text>
@@ -6721,8 +6720,7 @@ JACK</text>
 <text x="178.435" y="19.685" size="2.54" layer="95">Toggle Switch Hub</text>
 <text x="254" y="7.62" size="2.1844" layer="95">v1.1</text>
 <text x="8.255" y="13.335" size="2.54" layer="95">Toggle Switch Hub Project by Cycfi Research is licensed under a 
-Creative Commons Attribution-NonCommercial 4.0 International License. 
-http://creativecommons.org/licenses/by-nc/4.0/
+Creative Commons Attribution-ShareAlike 4.0 International License. 
 
 Copyright CYCFI Research Inc. 2013-2016</text>
 <text x="201.295" y="12.065" size="2.54" layer="95">2016038</text>

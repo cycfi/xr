@@ -3746,9 +3746,9 @@ POTENTIOMETER CASE</text>
 25K</text>
 <text x="177.8" y="19.05" size="2.54" layer="95">Tone Control</text>
 <text x="253.365" y="6.985" size="2.1844" layer="95">v1.46</text>
-<text x="7.62" y="12.7" size="2.54" layer="95">XR Controls Project by Cycfi Research is licensed under a 
-Creative Commons Attribution-NonCommercial 4.0 International License. 
-http://creativecommons.org/licenses/by-nc/4.0/
+<text x="7.62" y="12.7" size="2.54" layer="95">Tone Control Project by Cycfi Research is licensed under a Creative
+Commons Attribution-ShareAlike 4.0 International License. 
+http://creativecommons.org/licenses/by-sa/4.0/
 
 Copyright CYCFI Research Inc. 2013-2016</text>
 <text x="200.66" y="11.43" size="2.54" layer="95">2016040</text>

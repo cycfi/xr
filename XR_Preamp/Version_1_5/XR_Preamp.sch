@@ -5738,8 +5738,7 @@ DIN A4, landscape with extra doc field</description>
 <text x="177.8" y="19.05" size="2.54" layer="95">XR Preamp</text>
 <text x="252.73" y="6.985" size="2.1844" layer="95">v1.5</text>
 <text x="7.62" y="12.7" size="2.54" layer="95">XR Preamp Project by Cycfi Research is licensed under a 
-Creative Commons Attribution-NonCommercial 4.0 International License. 
-http://creativecommons.org/licenses/by-nc/4.0/
+Creative Commons Attribution-ShareAlike 4.0 International License. 
 
 Copyright CYCFI Research Inc. 2013-2016</text>
 <text x="200.66" y="11.43" size="2.54" layer="95">2016008</text>
@@ -8206,8 +8205,7 @@ Copyright CYCFI Research Inc. 2013-2016</text>
 <text x="177.8" y="19.05" size="2.54" layer="95">XR Preamp</text>
 <text x="252.73" y="6.985" size="2.1844" layer="95">v1.5</text>
 <text x="7.62" y="12.7" size="2.54" layer="95">XR Preamp Project by Cycfi Research is licensed under a 
-Creative Commons Attribution-NonCommercial 4.0 International License. 
-http://creativecommons.org/licenses/by-nc/4.0/
+Creative Commons Attribution-ShareAlike 4.0 International License. 
 
 Copyright CYCFI Research Inc. 2013-2016</text>
 <text x="200.66" y="11.43" size="2.54" layer="95">2016008</text>
