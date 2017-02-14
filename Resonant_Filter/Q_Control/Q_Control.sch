@@ -5964,8 +5964,8 @@ POTENTIOMETER BREAKOUT</text>
 <text x="7.62" y="12.7" size="2.54" layer="95">Q Control Project by Cycfi Research is licensed under a 
 Creative Commons Attribution-ShareAlike 4.0 International License. 
 
-Copyright CYCFI Research Inc. 2013-2016</text>
-<text x="200.66" y="11.43" size="2.54" layer="95">2016041</text>
+Copyright CYCFI Research Inc. 2013-2017</text>
+<text x="200.66" y="11.43" size="2.54" layer="95">201708</text>
 <wire x1="192.47528125" y1="25.047221875" x2="190.115640625" y2="25.047221875" width="0" layer="94"/>
 <wire x1="190.115640625" y1="25.047221875" x2="188.10833125" y2="25.047225" width="0" layer="94"/>
 <wire x1="188.10833125" y1="25.047225" x2="186.10184375" y2="25.047234375" width="0" layer="94"/>
