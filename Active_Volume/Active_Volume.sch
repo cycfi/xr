@@ -695,19 +695,19 @@ BREAKOUT</text>
 <wire x1="175.26" y1="95.25" x2="170.18" y2="95.25" width="0.4064" layer="94"/>
 <wire x1="175.26" y1="105.41" x2="170.18" y2="105.41" width="0.4064" layer="94"/>
 <wire x1="170.18" y1="105.41" x2="170.18" y2="95.25" width="0.4064" layer="94"/>
-<text x="88.265" y="141.605" size="1.778" layer="95">VCC</text>
-<text x="89.535" y="144.145" size="1.778" layer="95">SW</text>
-<text x="88.265" y="139.065" size="1.778" layer="95">GND</text>
+<text x="86.0425" y="141.605" size="1.778" layer="95">-(SW)</text>
+<text x="84.455" y="144.145" size="1.778" layer="95">VCC(+)</text>
+<text x="84.455" y="139.065" size="1.778" layer="95">GND(-)</text>
 <text x="175.895" y="134.62" size="1.778" layer="95">IN</text>
 <text x="175.895" y="132.08" size="1.778" layer="95">OUT\</text>
-<text x="175.895" y="129.54" size="1.778" layer="95">VCC</text>
-<text x="175.895" y="127" size="1.778" layer="95">GND</text>
-<text x="175.895" y="101.6" size="1.778" layer="95">SW</text>
+<text x="175.895" y="129.54" size="1.778" layer="95">VCC(+)</text>
+<text x="175.895" y="127" size="1.778" layer="95">GND(-)</text>
+<text x="175.895" y="101.6" size="1.778" layer="95">-(SW)</text>
 <text x="175.895" y="99.06" size="1.778" layer="95">OUT</text>
-<text x="175.895" y="96.52" size="1.778" layer="95">GND</text>
-<text x="90.805" y="147.955" size="1.778" layer="95">VOL PWR</text>
+<text x="175.895" y="96.52" size="1.778" layer="95">GND(-)</text>
+<text x="93.98" y="147.955" size="1.778" layer="95">PWR</text>
 <text x="170.18" y="139.065" size="1.778" layer="95">INSERT</text>
-<text x="170.18" y="106.045" size="1.778" layer="95">OUTPUT </text>
+<text x="170.18" y="106.045" size="1.778" layer="95">OUTPUT JACK</text>
 <wire x1="97.79" y1="121.285" x2="102.87" y2="121.285" width="0.1524" layer="94"/>
 <wire x1="96.52" y1="121.285" x2="97.79" y2="121.285" width="0.6096" layer="94"/>
 <wire x1="93.98" y1="118.745" x2="93.98" y2="126.365" width="0.4064" layer="94"/>
@@ -716,7 +716,7 @@ BREAKOUT</text>
 <wire x1="99.06" y1="118.745" x2="99.06" y2="126.365" width="0.4064" layer="94"/>
 <wire x1="97.79" y1="123.825" x2="102.87" y2="123.825" width="0.1524" layer="94"/>
 <wire x1="96.52" y1="123.825" x2="97.79" y2="123.825" width="0.6096" layer="94"/>
-<text x="93.0275" y="127" size="1.778" layer="95">INPUT</text>
+<text x="93.98" y="127" size="1.778" layer="95">COIL</text>
 <wire x1="171.45" y1="116.84" x2="166.37" y2="116.84" width="0.1524" layer="94"/>
 <wire x1="172.72" y1="116.84" x2="171.45" y2="116.84" width="0.6096" layer="94"/>
 <wire x1="175.26" y1="119.38" x2="175.26" y2="111.76" width="0.4064" layer="94"/>
@@ -725,15 +725,16 @@ BREAKOUT</text>
 <wire x1="170.18" y1="119.38" x2="170.18" y2="111.76" width="0.4064" layer="94"/>
 <wire x1="171.45" y1="114.3" x2="166.37" y2="114.3" width="0.1524" layer="94"/>
 <wire x1="172.72" y1="114.3" x2="171.45" y2="114.3" width="0.6096" layer="94"/>
-<text x="169.545" y="120.015" size="1.778" layer="95">TONE </text>
-<text x="175.895" y="116.205" size="1.778" layer="95">TONE</text>
-<text x="175.895" y="113.03" size="1.778" layer="95">GND</text>
-<text x="89.2175" y="123.19" size="1.778" layer="95">IN+</text>
-<text x="89.2175" y="120.65" size="1.778" layer="95">IN-</text>
+<text x="170.18" y="120.015" size="1.778" layer="95">TONE CONTROL</text>
+<text x="175.895" y="116.205" size="1.778" layer="95">IN</text>
+<text x="175.895" y="113.03" size="1.778" layer="95">GND(-)</text>
+<text x="90.805" y="123.19" size="1.778" layer="95">IN</text>
+<text x="85.09" y="120.65" size="1.778" layer="95">GND(-)</text>
 <text x="143.51" y="111.76" size="1.778" layer="95">500 ohms</text>
 <text x="130.81" y="66.04" size="1.778" layer="95">NOTES:
 *POTENTIOMETER BREAKOUT = SMD pads
 for potentiometer breakout board (POT1)</text>
+<<<<<<< HEAD
 <text x="177.8" y="19.05" size="2.286" layer="95" font="vector">Active Volume</text>
 <text x="252.73" y="6.985" size="2.667" layer="95" font="vector">v1.1</text>
 <text x="7.62" y="12.7" size="2.286" layer="95" font="vector">Active Volume Project by Cycfi Research is licensed under a 
@@ -742,6 +743,15 @@ http://creativecommons.org/licenses/by-sa/4.0/
 
 Copyright CYCFI Research Inc. 2013-2017</text>
 <text x="200.66" y="11.43" size="2.286" layer="95" font="vector">2016039</text>
+=======
+<text x="177.8" y="19.05" size="2.54" layer="95">Active Volume</text>
+<text x="252.73" y="6.985" size="2.1844" layer="95">v1.1</text>
+<text x="17.78" y="12.7" size="3.048" layer="95">Active Volume Project by Cycfi Research is licensed under a 
+Creative Commons Attribution-ShareAlike 4.0 International License. 
+
+Copyright CYCFI Research Inc. 2013-2017</text>
+<text x="200.66" y="11.43" size="2.54" layer="95">201705</text>
+>>>>>>> 242c39b6e91aeeafff6b1bceba655f2654b8a973
 <wire x1="192.47528125" y1="25.047221875" x2="190.115640625" y2="25.047221875" width="0" layer="94"/>
 <wire x1="190.115640625" y1="25.047221875" x2="188.10833125" y2="25.047225" width="0" layer="94"/>
 <wire x1="188.10833125" y1="25.047225" x2="186.10184375" y2="25.047234375" width="0" layer="94"/>
@@ -2991,7 +3001,7 @@ Copyright CYCFI Research Inc. 2013-2017</text>
 <instance part="U1" gate="G$1" x="121.92" y="121.285"/>
 <instance part="SUPPLY4" gate="GND" x="105.41" y="88.9"/>
 <instance part="P+3" gate="VCC" x="105.41" y="151.13" smashed="yes">
-<attribute name="VALUE" x="106.68" y="149.86" size="1.778" layer="96"/>
+<attribute name="VALUE" x="104.14" y="152.4" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="162.56" y="0" smashed="yes">
@@ -3065,16 +3075,16 @@ Copyright CYCFI Research Inc. 2013-2017</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC"/>
 <wire x1="112.395" y1="118.745" x2="107.95" y2="118.745" width="0.1524" layer="91"/>
-<wire x1="107.95" y1="118.745" x2="107.95" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="118.745" x2="107.95" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="166.37" y1="130.81" x2="160.02" y2="130.81" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="130.81" x2="160.02" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="102.87" y1="142.24" x2="105.41" y2="142.24" width="0.1524" layer="91"/>
-<junction x="107.95" y="142.24"/>
-<wire x1="105.41" y1="142.24" x2="107.95" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="107.95" y1="142.24" x2="160.02" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="130.81" x2="160.02" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="144.78" x2="105.41" y2="144.78" width="0.1524" layer="91"/>
+<junction x="107.95" y="144.78"/>
+<wire x1="105.41" y1="144.78" x2="107.95" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="144.78" x2="160.02" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
-<wire x1="105.41" y1="148.59" x2="105.41" y2="142.24" width="0.1524" layer="91"/>
-<junction x="105.41" y="142.24"/>
+<wire x1="105.41" y1="148.59" x2="105.41" y2="144.78" width="0.1524" layer="91"/>
+<junction x="105.41" y="144.78"/>
 </segment>
 </net>
 <net name="OUT(VOL)" class="0">
@@ -3105,8 +3115,8 @@ Copyright CYCFI Research Inc. 2013-2017</text>
 </net>
 <net name="SW" class="0">
 <segment>
-<wire x1="102.87" y1="144.78" x2="165.1" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="144.78" x2="165.1" y2="102.87" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="142.24" x2="165.1" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="142.24" x2="165.1" y2="102.87" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="102.87" x2="166.37" y2="102.87" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3131,6 +3141,7 @@ Copyright CYCFI Research Inc. 2013-2017</text>
 </sheet>
 <sheet>
 <plain>
+<<<<<<< HEAD
 <text x="121.6025" y="108.9025" size="1.778" layer="95" rot="MR0">SW</text>
 <text x="121.6025" y="103.8225" size="1.778" layer="95" rot="MR0">IN+</text>
 <text x="121.6025" y="98.7425" size="1.778" layer="95" rot="MR0">TONE</text>
@@ -3145,6 +3156,21 @@ http://creativecommons.org/licenses/by-sa/4.0/
 
 Copyright CYCFI Research Inc. 2013-2017</text>
 <text x="200.66" y="11.43" size="2.667" layer="95" font="vector">2016039</text>
+=======
+<text x="141.2875" y="108.9025" size="1.778" layer="95">SW</text>
+<text x="141.2875" y="103.8225" size="1.778" layer="95">IN</text>
+<text x="141.2875" y="98.7425" size="1.778" layer="95">IN</text>
+<text x="115.2525" y="98.7425" size="1.778" layer="95">SW</text>
+<text x="115.8875" y="106.3625" size="1.778" layer="95">IN</text>
+<text x="113.665" y="109.22" size="1.778" layer="95">OUT</text>
+<text x="177.8" y="19.05" size="2.54" layer="95">Active Volume</text>
+<text x="252.73" y="6.985" size="2.1844" layer="95">v1.1</text>
+<text x="22.86" y="12.7" size="3.048" layer="95">Active Volume Project by Cycfi Research is licensed under a 
+Creative Commons Attribution-ShareAlike 4.0 International License. 
+
+Copyright CYCFI Research Inc. 2013-2017</text>
+<text x="200.66" y="11.43" size="2.54" layer="95">201706</text>
+>>>>>>> 242c39b6e91aeeafff6b1bceba655f2654b8a973
 <wire x1="192.47528125" y1="25.047221875" x2="190.115640625" y2="25.047221875" width="0" layer="94"/>
 <wire x1="190.115640625" y1="25.047221875" x2="188.10833125" y2="25.047225" width="0" layer="94"/>
 <wire x1="188.10833125" y1="25.047225" x2="186.10184375" y2="25.047234375" width="0" layer="94"/>
@@ -5362,38 +5388,34 @@ Copyright CYCFI Research Inc. 2013-2017</text>
 <vertex x="235.1615625" y="25.047221875"/>
 <vertex x="232.684540625" y="25.047221875"/>
 </polygon>
-<text x="148.9075" y="101.2825" size="1.778" layer="95" rot="MR0">OUT</text>
-<text x="148.9075" y="103.8225" size="1.778" layer="95" rot="MR0">GND</text>
-<text x="121.6025" y="101.2825" size="1.778" layer="95" rot="MR0">GND</text>
-<text x="121.6025" y="106.3625" size="1.778" layer="95" rot="MR0">IN-</text>
-<text x="121.6025" y="114.3" size="1.778" layer="95" rot="MR0">GND</text>
-<text x="149.225" y="114.3" size="1.778" layer="95" rot="MR0">GND</text>
-<text x="149.225" y="111.76" size="1.778" layer="95" rot="MR0">VCC</text>
-<text x="121.6025" y="111.4425" size="1.778" layer="95" rot="MR0">VCC</text>
+<text x="113.9825" y="101.2825" size="1.778" layer="95">OUT</text>
+<text x="109.855" y="103.8225" size="1.778" layer="95">GND(-)</text>
+<text x="141.2875" y="101.2825" size="1.778" layer="95">GND(-)</text>
+<text x="141.2875" y="106.3625" size="1.778" layer="95">GND(-)</text>
+<text x="141.2875" y="114.3" size="1.778" layer="95">GND(-)</text>
+<text x="109.855" y="114.3" size="1.778" layer="95">GND(-)</text>
+<text x="109.855" y="111.76" size="1.778" layer="95">VCC(+)</text>
+<text x="141.2875" y="111.4425" size="1.778" layer="95">VCC(+)</text>
 <text x="101.6" y="160.02" size="5.08" layer="95">OUTPUT HEADERS</text>
-<wire x1="140.97" y1="106.045" x2="150.8125" y2="106.045" width="0.1524" layer="95"/>
-<wire x1="140.97" y1="116.5225" x2="150.8125" y2="116.5225" width="0.1524" layer="95"/>
-<wire x1="140.97" y1="98.425" x2="150.8125" y2="98.425" width="0.1524" layer="95"/>
-<wire x1="115.2525" y1="116.5225" x2="125.095" y2="116.5225" width="0.1524" layer="95"/>
-<wire x1="114.935" y1="108.585" x2="125.095" y2="108.585" width="0.1524" layer="95"/>
-<wire x1="114.935" y1="103.505" x2="125.095" y2="103.505" width="0.1524" layer="95"/>
-<text x="150.8125" y="108.2675" size="1.27" layer="95" rot="MR90">INSERT</text>
-<text x="150.8125" y="99.06" size="1.27" layer="95" rot="MR90">OUTPUT</text>
-<text x="113.03" y="109.5375" size="1.016" layer="95" rot="MR90">VOL PWR</text>
-<text x="113.03" y="98.7425" size="1.016" layer="95" rot="MR90">TONE</text>
-<text x="113.03" y="104.14" size="1.016" layer="95" rot="MR90">INPUT</text>
-<wire x1="114.935" y1="98.425" x2="125.095" y2="98.425" width="0.1524" layer="95"/>
-<wire x1="114.935" y1="98.425" x2="125.095" y2="98.425" width="0.1524" layer="95"/>
-<wire x1="114.935" y1="103.505" x2="125.095" y2="103.505" width="0.1524" layer="95"/>
-<wire x1="114.935" y1="108.585" x2="125.095" y2="108.585" width="0.1524" layer="95"/>
-<wire x1="114.935" y1="116.5225" x2="125.095" y2="116.5225" width="0.1524" layer="95"/>
-<wire x1="140.97" y1="106.045" x2="150.8125" y2="106.045" width="0.1524" layer="95"/>
-<wire x1="140.97" y1="98.425" x2="150.8125" y2="98.425" width="0.1524" layer="95"/>
+<wire x1="121.92" y1="106.045" x2="108.2675" y2="106.045" width="0.1524" layer="95"/>
+<wire x1="121.92" y1="116.5225" x2="107.95" y2="116.5225" width="0.1524" layer="95"/>
+<wire x1="121.92" y1="98.425" x2="108.2675" y2="98.425" width="0.1524" layer="95"/>
+<wire x1="151.765" y1="116.5225" x2="137.795" y2="116.5225" width="0.1524" layer="95"/>
+<wire x1="151.765" y1="108.585" x2="137.795" y2="108.585" width="0.1524" layer="95"/>
+<wire x1="151.765" y1="103.505" x2="137.795" y2="103.505" width="0.1524" layer="95"/>
+<wire x1="151.765" y1="98.425" x2="137.795" y2="98.425" width="0.1524" layer="95"/>
+<text x="99.06" y="110.49" size="1.778" layer="95">INSERT</text>
+<text x="98.425" y="100.0125" size="1.778" layer="95">OUTPUT
+JACK</text>
+<text x="152.7175" y="111.4425" size="1.778" layer="95">PWR</text>
+<text x="152.7175" y="98.7425" size="1.778" layer="95">TONE
+CONTROL</text>
+<text x="152.7175" y="105.41" size="1.778" layer="95">COIL</text>
 </plain>
 <instances>
-<instance part="H1" gate="G$1" x="133.0325" y="107.315" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="136.8425" y="94.615" size="1.778" layer="96" rot="MR0"/>
-<attribute name="NAME" x="135.255" y="118.237" size="1.778" layer="95" rot="MR0"/>
+<instance part="H1" gate="G$1" x="129.8575" y="107.315" smashed="yes">
+<attribute name="VALUE" x="126.0475" y="94.615" size="1.778" layer="96"/>
+<attribute name="NAME" x="128.5875" y="118.237" size="1.778" layer="95"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="162.56" y="0" smashed="yes">
@@ -5407,85 +5429,85 @@ Copyright CYCFI Research Inc. 2013-2017</text>
 <net name="GND" class="0">
 <segment>
 <pinref part="H1" gate="G$1" pin="6"/>
-<wire x1="140.6525" y1="104.775" x2="143.1925" y2="104.775" width="0.1524" layer="91"/>
-<junction x="143.1925" y="104.775"/>
+<wire x1="122.2375" y1="104.775" x2="119.6975" y2="104.775" width="0.1524" layer="91"/>
+<junction x="119.6975" y="104.775"/>
 </segment>
 <segment>
 <pinref part="H1" gate="G$1" pin="14"/>
-<wire x1="143.1925" y1="114.935" x2="140.6525" y2="114.935" width="0.1524" layer="91"/>
-<junction x="143.1925" y="114.935"/>
+<wire x1="119.6975" y1="114.935" x2="122.2375" y2="114.935" width="0.1524" layer="91"/>
+<junction x="119.6975" y="114.935"/>
 </segment>
 <segment>
 <pinref part="H1" gate="G$1" pin="13"/>
-<wire x1="125.4125" y1="114.935" x2="122.8725" y2="114.935" width="0.1524" layer="91"/>
-<junction x="122.8725" y="114.935"/>
+<wire x1="137.4775" y1="114.935" x2="140.0175" y2="114.935" width="0.1524" layer="91"/>
+<junction x="140.0175" y="114.935"/>
 </segment>
 <segment>
 <pinref part="H1" gate="G$1" pin="3"/>
-<wire x1="125.4125" y1="102.235" x2="122.8725" y2="102.235" width="0.1524" layer="91"/>
-<junction x="122.8725" y="102.235"/>
+<wire x1="137.4775" y1="102.235" x2="140.0175" y2="102.235" width="0.1524" layer="91"/>
+<junction x="140.0175" y="102.235"/>
 </segment>
 <segment>
 <pinref part="H1" gate="G$1" pin="7"/>
-<wire x1="125.4125" y1="107.315" x2="122.8725" y2="107.315" width="0.1524" layer="91"/>
-<junction x="122.8725" y="107.315"/>
+<wire x1="137.4775" y1="107.315" x2="140.0175" y2="107.315" width="0.1524" layer="91"/>
+<junction x="140.0175" y="107.315"/>
 </segment>
 </net>
 <net name="INPUT" class="0">
 <segment>
 <pinref part="H1" gate="G$1" pin="5"/>
-<wire x1="125.4125" y1="104.775" x2="122.8725" y2="104.775" width="0.1524" layer="91"/>
-<junction x="122.8725" y="104.775"/>
+<wire x1="137.4775" y1="104.775" x2="140.0175" y2="104.775" width="0.1524" layer="91"/>
+<junction x="140.0175" y="104.775"/>
 </segment>
 </net>
 <net name="OUT(SEL)" class="0">
 <segment>
 <pinref part="H1" gate="G$1" pin="10"/>
-<wire x1="143.1925" y1="109.855" x2="140.6525" y2="109.855" width="0.1524" layer="91"/>
-<junction x="143.1925" y="109.855"/>
+<wire x1="119.6975" y1="109.855" x2="122.2375" y2="109.855" width="0.1524" layer="91"/>
+<junction x="119.6975" y="109.855"/>
 </segment>
 </net>
 <net name="SW" class="0">
 <segment>
 <pinref part="H1" gate="G$1" pin="2"/>
-<wire x1="140.6525" y1="99.695" x2="143.1925" y2="99.695" width="0.1524" layer="91"/>
-<junction x="143.1925" y="99.695"/>
+<wire x1="122.2375" y1="99.695" x2="119.6975" y2="99.695" width="0.1524" layer="91"/>
+<junction x="119.6975" y="99.695"/>
 </segment>
 <segment>
 <pinref part="H1" gate="G$1" pin="9"/>
-<wire x1="125.4125" y1="109.855" x2="122.8725" y2="109.855" width="0.1524" layer="91"/>
-<junction x="122.8725" y="109.855"/>
+<wire x1="137.4775" y1="109.855" x2="140.0175" y2="109.855" width="0.1524" layer="91"/>
+<junction x="140.0175" y="109.855"/>
 </segment>
 </net>
 <net name="OUT(PREAMP)" class="0">
 <segment>
-<wire x1="143.1925" y1="107.315" x2="140.6525" y2="107.315" width="0.1524" layer="91"/>
+<wire x1="119.6975" y1="107.315" x2="122.2375" y2="107.315" width="0.1524" layer="91"/>
 <pinref part="H1" gate="G$1" pin="8"/>
-<junction x="143.1925" y="107.315"/>
+<junction x="119.6975" y="107.315"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="H1" gate="G$1" pin="12"/>
-<wire x1="140.6525" y1="112.395" x2="143.1925" y2="112.395" width="0.1524" layer="91"/>
-<junction x="143.1925" y="112.395"/>
+<wire x1="122.2375" y1="112.395" x2="119.6975" y2="112.395" width="0.1524" layer="91"/>
+<junction x="119.6975" y="112.395"/>
 </segment>
 <segment>
 <pinref part="H1" gate="G$1" pin="11"/>
-<wire x1="125.4125" y1="112.395" x2="122.8725" y2="112.395" width="0.1524" layer="91"/>
-<junction x="122.8725" y="112.395"/>
+<wire x1="137.4775" y1="112.395" x2="140.0175" y2="112.395" width="0.1524" layer="91"/>
+<junction x="140.0175" y="112.395"/>
 </segment>
 </net>
 <net name="OUT(VOL)" class="0">
 <segment>
 <pinref part="H1" gate="G$1" pin="4"/>
-<wire x1="140.6525" y1="102.235" x2="143.1925" y2="102.235" width="0.1524" layer="91"/>
-<junction x="143.1925" y="102.235"/>
+<wire x1="122.2375" y1="102.235" x2="119.6975" y2="102.235" width="0.1524" layer="91"/>
+<junction x="119.6975" y="102.235"/>
 </segment>
 <segment>
 <pinref part="H1" gate="G$1" pin="1"/>
-<wire x1="122.8725" y1="99.695" x2="125.4125" y2="99.695" width="0.1524" layer="91"/>
-<junction x="122.8725" y="99.695"/>
+<wire x1="140.0175" y1="99.695" x2="137.4775" y2="99.695" width="0.1524" layer="91"/>
+<junction x="140.0175" y="99.695"/>
 </segment>
 </net>
 </nets>

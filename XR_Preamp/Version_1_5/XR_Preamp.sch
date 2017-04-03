@@ -5735,6 +5735,7 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="204.1525" y1="96.2025" x2="176.2125" y2="96.2025" width="0.6096" layer="94" style="shortdash"/>
 <text x="173.6725" y="98.7425" size="1.778" layer="95">NOTE:
 *Gain Adjustment Trimmer</text>
+<<<<<<< HEAD
 <text x="177.8" y="19.05" size="2.54" layer="95" font="vector">XR Preamp</text>
 <text x="252.73" y="6.985" size="2.1844" layer="95" font="vector">v1.5</text>
 <text x="7.62" y="12.7" size="2.54" layer="95" font="vector">XR Preamp Project by Cycfi Research is licensed under a Creative
@@ -5743,6 +5744,15 @@ http://creativecommons.org/licenses/by-sa/4.0/
 
 Copyright CYCFI Research Inc. 2013-2017</text>
 <text x="200.66" y="11.43" size="2.54" layer="95" font="vector">2016008</text>
+=======
+<text x="177.8" y="19.05" size="2.54" layer="95">XR Preamp</text>
+<text x="252.73" y="6.985" size="2.1844" layer="95">v1.5</text>
+<text x="7.62" y="12.7" size="2.54" layer="95">XR Preamp Project by Cycfi Research is licensed under a 
+Creative Commons Attribution-ShareAlike 4.0 International License. 
+
+Copyright CYCFI Research Inc. 2013-2017</text>
+<text x="200.66" y="11.43" size="2.54" layer="95">201716</text>
+>>>>>>> 242c39b6e91aeeafff6b1bceba655f2654b8a973
 <wire x1="192.47528125" y1="25.047221875" x2="190.115640625" y2="25.047221875" width="0" layer="94"/>
 <wire x1="190.115640625" y1="25.047221875" x2="188.10833125" y2="25.047225" width="0" layer="94"/>
 <wire x1="188.10833125" y1="25.047225" x2="186.10184375" y2="25.047234375" width="0" layer="94"/>
@@ -8203,6 +8213,7 @@ Copyright CYCFI Research Inc. 2013-2017</text>
 <text x="128.27" y="90.805" size="1.778" layer="95">GND</text>
 <text x="128.27" y="85.4075" size="1.778" layer="95">VCC</text>
 <text x="101.6" y="137.16" size="5.08" layer="95">CASTELLATED PADS</text>
+<<<<<<< HEAD
 <text x="177.8" y="19.05" size="2.54" layer="95" font="fixed">XR Preamp</text>
 <text x="252.73" y="6.985" size="2.1844" layer="95" font="fixed">v1.5</text>
 <text x="7.62" y="12.7" size="2.54" layer="95" font="fixed">XR Preamp Project by Cycfi Research is licensed under a Creative
@@ -8211,6 +8222,15 @@ http://creativecommons.org/licenses/by-sa/4.0/
 
 Copyright CYCFI Research Inc. 2013-2017</text>
 <text x="200.66" y="11.43" size="2.54" layer="95" font="fixed">2016008</text>
+=======
+<text x="177.8" y="19.05" size="2.54" layer="95">XR Preamp</text>
+<text x="252.73" y="6.985" size="2.1844" layer="95">v1.5</text>
+<text x="7.62" y="12.7" size="2.54" layer="95">XR Preamp Project by Cycfi Research is licensed under a 
+Creative Commons Attribution-ShareAlike 4.0 International License. 
+
+Copyright CYCFI Research Inc. 2013-2017</text>
+<text x="200.66" y="11.43" size="2.54" layer="95">201715</text>
+>>>>>>> 242c39b6e91aeeafff6b1bceba655f2654b8a973
 <wire x1="192.47528125" y1="25.047221875" x2="190.115640625" y2="25.047221875" width="0" layer="94"/>
 <wire x1="190.115640625" y1="25.047221875" x2="188.10833125" y2="25.047225" width="0" layer="94"/>
 <wire x1="188.10833125" y1="25.047225" x2="186.10184375" y2="25.047234375" width="0" layer="94"/>
