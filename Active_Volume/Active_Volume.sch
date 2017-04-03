@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -734,14 +734,14 @@ BREAKOUT</text>
 <text x="130.81" y="66.04" size="1.778" layer="95">NOTES:
 *POTENTIOMETER BREAKOUT = SMD pads
 for potentiometer breakout board (POT1)</text>
-<text x="177.8" y="19.05" size="2.54" layer="95">Active Volume</text>
-<text x="252.73" y="6.985" size="2.1844" layer="95">v1.1</text>
-<text x="7.62" y="12.7" size="2.54" layer="95">Active Volume Project by Cycfi Research is licensed under a 
-Creative Commons Attribution-NonCommercial 4.0 International License. 
-http://creativecommons.org/licenses/by-nc/4.0/
+<text x="177.8" y="19.05" size="2.286" layer="95" font="vector">Active Volume</text>
+<text x="252.73" y="6.985" size="2.667" layer="95" font="vector">v1.1</text>
+<text x="7.62" y="12.7" size="2.286" layer="95" font="vector">Active Volume Project by Cycfi Research is licensed under a 
+Creative Commons Attribution-ShareAlike 4.0 International License. 
+http://creativecommons.org/licenses/by-sa/4.0/
 
-Copyright CYCFI Research Inc. 2013-2016</text>
-<text x="200.66" y="11.43" size="2.54" layer="95">2016039</text>
+Copyright CYCFI Research Inc. 2013-2017</text>
+<text x="200.66" y="11.43" size="2.286" layer="95" font="vector">2016039</text>
 <wire x1="192.47528125" y1="25.047221875" x2="190.115640625" y2="25.047221875" width="0" layer="94"/>
 <wire x1="190.115640625" y1="25.047221875" x2="188.10833125" y2="25.047225" width="0" layer="94"/>
 <wire x1="188.10833125" y1="25.047225" x2="186.10184375" y2="25.047234375" width="0" layer="94"/>
@@ -2995,8 +2995,8 @@ Copyright CYCFI Research Inc. 2013-2016</text>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="162.56" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="175.26" y="1.27" size="2.54" layer="94" font="vector"/>
-<attribute name="SHEET" x="248.92" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="175.26" y="1.27" size="2.667" layer="94" font="vector"/>
+<attribute name="SHEET" x="248.92" y="1.27" size="2.667" layer="94" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -3137,14 +3137,14 @@ Copyright CYCFI Research Inc. 2013-2016</text>
 <text x="147.6375" y="98.7425" size="1.778" layer="95" rot="MR0">SW</text>
 <text x="147.0025" y="106.68" size="1.778" layer="95" rot="MR0">IN</text>
 <text x="149.225" y="109.22" size="1.778" layer="95" rot="MR0">OUT</text>
-<text x="177.8" y="19.05" size="2.54" layer="95">Active Volume</text>
-<text x="252.73" y="6.985" size="2.1844" layer="95">v1.1</text>
-<text x="7.62" y="12.7" size="2.54" layer="95">Active Volume Project by Cycfi Research is licensed under a 
-Creative Commons Attribution-NonCommercial 4.0 International License. 
-http://creativecommons.org/licenses/by-nc/4.0/
+<text x="177.8" y="19.05" size="2.667" layer="95" font="vector">Active Volume</text>
+<text x="252.73" y="6.985" size="2.667" layer="95" font="vector">v1.1</text>
+<text x="7.62" y="12.7" size="2.667" layer="95" font="vector">Active Volume Project by Cycfi Research is licensed under a 
+Creative Commons Attribution-ShareAlike 4.0 International License. 
+http://creativecommons.org/licenses/by-sa/4.0/
 
-Copyright CYCFI Research Inc. 2013-2016</text>
-<text x="200.66" y="11.43" size="2.54" layer="95">2016039</text>
+Copyright CYCFI Research Inc. 2013-2017</text>
+<text x="200.66" y="11.43" size="2.667" layer="95" font="vector">2016039</text>
 <wire x1="192.47528125" y1="25.047221875" x2="190.115640625" y2="25.047221875" width="0" layer="94"/>
 <wire x1="190.115640625" y1="25.047221875" x2="188.10833125" y2="25.047225" width="0" layer="94"/>
 <wire x1="188.10833125" y1="25.047225" x2="186.10184375" y2="25.047234375" width="0" layer="94"/>
@@ -5397,8 +5397,8 @@ Copyright CYCFI Research Inc. 2013-2016</text>
 </instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="162.56" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="175.26" y="1.27" size="2.54" layer="94" font="vector"/>
-<attribute name="SHEET" x="248.92" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="175.26" y="1.27" size="2.667" layer="94" font="vector"/>
+<attribute name="SHEET" x="248.92" y="1.27" size="2.667" layer="94" font="vector"/>
 </instance>
 </instances>
 <busses>

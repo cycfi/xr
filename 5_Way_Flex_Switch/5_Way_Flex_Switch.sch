@@ -4374,14 +4374,14 @@ VOL PWR</text>
 <wire x1="38.1" y1="98.7425" x2="38.1" y2="91.1225" width="0.1524" layer="94"/>
 <text x="53.975" y="90.4875" size="1.778" layer="95">IC</text>
 <text x="53.975" y="98.1075" size="1.778" layer="95">OC</text>
-<text x="177.8" y="19.05" size="2.54" layer="95">5 Way Flex Switch</text>
-<text x="252.73" y="6.985" size="2.1844" layer="95">v1.1</text>
-<text x="7.62" y="12.7" size="2.54" layer="95">5 Way Flex Switch Project by Cycfi Research is licensed under a 
-Creative Commons Attribution-NonCommercial 4.0 International License. 
-http://creativecommons.org/licenses/by-nc/4.0/
+<text x="177.8" y="19.05" size="2.286" layer="95">5 Way Flex Switch</text>
+<text x="252.73" y="6.985" size="2.286" layer="95">v1.1</text>
+<text x="7.62" y="12.7" size="2.286" layer="95">5 Way Flex Switch Project by Cycfi Research is licensed under a 
+Creative Commons Attribution-ShareAlike 4.0 International License. 
+http://creativecommons.org/licenses/by-sa/4.0/
 
-Copyright CYCFI Research Inc. 2013-2016</text>
-<text x="200.66" y="11.43" size="2.54" layer="95">2016037</text>
+Copyright CYCFI Research Inc. 2013-2017</text>
+<text x="200.66" y="11.43" size="2.286" layer="95">2016037</text>
 <wire x1="192.47528125" y1="25.047221875" x2="190.115640625" y2="25.047221875" width="0" layer="94"/>
 <wire x1="190.115640625" y1="25.047221875" x2="188.10833125" y2="25.047225" width="0" layer="94"/>
 <wire x1="188.10833125" y1="25.047225" x2="186.10184375" y2="25.047234375" width="0" layer="94"/>
@@ -6632,8 +6632,8 @@ Copyright CYCFI Research Inc. 2013-2016</text>
 <instance part="SUPPLY6" gate="GND" x="167.64" y="65.405"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="162.56" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="175.26" y="1.27" size="2.54" layer="94" font="vector"/>
-<attribute name="SHEET" x="248.92" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="175.26" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="248.92" y="1.27" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
@@ -6886,14 +6886,14 @@ Copyright CYCFI Research Inc. 2013-2016</text>
 <text x="88.5825" y="108.585" size="1.778" layer="95">IC</text>
 <text x="86.36" y="111.125" size="1.778" layer="95">GND</text>
 <text x="101.2825" y="117.7925" size="1.778" layer="95">H1</text>
-<text x="177.8" y="19.05" size="2.54" layer="95">5 Way Flex Switch</text>
-<text x="252.73" y="6.985" size="2.1844" layer="95">v1.1</text>
-<text x="7.62" y="12.7" size="2.54" layer="95">5 Way Flex Switch Project by Cycfi Research is licensed under a 
-Creative Commons Attribution-NonCommercial 4.0 International License. 
-http://creativecommons.org/licenses/by-nc/4.0/
+<text x="177.8" y="19.05" size="2.286" layer="95">5 Way Flex Switch</text>
+<text x="252.73" y="6.985" size="2.286" layer="95">v1.1</text>
+<text x="7.62" y="12.7" size="2.286" layer="95">5 Way Flex Switch Project by Cycfi Research is licensed under a 
+Creative Commons Attribution-ShareAlike 4.0 International License. 
+http://creativecommons.org/licenses/by-sa/4.0/
 
-Copyright CYCFI Research Inc. 2013-2016</text>
-<text x="200.66" y="11.43" size="2.54" layer="95">2016037</text>
+Copyright CYCFI Research Inc. 2013-2017</text>
+<text x="200.66" y="11.43" size="2.286" layer="95">2016037</text>
 <wire x1="192.47528125" y1="25.047221875" x2="190.115640625" y2="25.047221875" width="0" layer="94"/>
 <wire x1="190.115640625" y1="25.047221875" x2="188.10833125" y2="25.047225" width="0" layer="94"/>
 <wire x1="188.10833125" y1="25.047225" x2="186.10184375" y2="25.047234375" width="0" layer="94"/>

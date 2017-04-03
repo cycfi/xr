@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4195,14 +4195,14 @@ GND</text>
 <text x="190.5" y="98.425" size="1.778" layer="95">INSERT</text>
 <text x="189.865" y="80.645" size="1.778" layer="95">OUTPUT </text>
 <text x="189.865" y="116.205" size="1.778" layer="95">BYPASS</text>
-<text x="177.8" y="19.05" size="2.54" layer="95">5 Way Selector Switch</text>
-<text x="252.73" y="6.985" size="2.1844" layer="95">v1.47</text>
-<text x="7.62" y="12.7" size="2.54" layer="95">5 Way Selector Switch Project by Cycfi Research is licensed under a 
-Creative Commons Attribution-NonCommercial 4.0 International License. 
-http://creativecommons.org/licenses/by-nc/4.0/
+<text x="177.8" y="19.05" size="2.286" layer="95" font="fixed">5 Way Selector Switch</text>
+<text x="252.73" y="6.985" size="2.286" layer="95" font="fixed">v1.47</text>
+<text x="7.62" y="12.7" size="2.286" layer="95" font="fixed">5 Way Selector Switch Project by Cycfi Research is licensed under a 
+Creative Commons Attribution-ShareAlike 4.0 International License. 
+http://creativecommons.org/licenses/by-sa/4.0/
 
-Copyright CYCFI Research Inc. 2013-2016</text>
-<text x="200.66" y="11.43" size="2.54" layer="95">2016036</text>
+Copyright CYCFI Research Inc. 2013-2017</text>
+<text x="200.66" y="11.43" size="2.286" layer="95" font="fixed">2016036</text>
 <wire x1="192.47528125" y1="25.047221875" x2="190.115640625" y2="25.047221875" width="0" layer="94"/>
 <wire x1="190.115640625" y1="25.047221875" x2="188.10833125" y2="25.047225" width="0" layer="94"/>
 <wire x1="188.10833125" y1="25.047225" x2="186.10184375" y2="25.047234375" width="0" layer="94"/>
@@ -6445,8 +6445,8 @@ Copyright CYCFI Research Inc. 2013-2016</text>
 <instance part="SUPPLY4" gate="GND" x="62.865" y="121.92"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="162.56" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="175.26" y="1.27" size="2.54" layer="94" font="vector"/>
-<attribute name="SHEET" x="248.92" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="175.26" y="1.27" size="2.286" layer="94" font="vector"/>
+<attribute name="SHEET" x="248.92" y="1.27" size="2.286" layer="94" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -6636,14 +6636,14 @@ Copyright CYCFI Research Inc. 2013-2016</text>
 <text x="167.005" y="93.345" size="1.27" layer="95" rot="R90">BYPASS</text>
 <text x="201.295" y="100.965" size="1.27" layer="95" rot="R90">INSERT</text>
 <text x="201.295" y="91.7575" size="1.27" layer="95" rot="R90">OUTPUT</text>
-<text x="177.8" y="19.05" size="2.54" layer="95">5 Way Selector Switch</text>
-<text x="252.73" y="6.985" size="2.1844" layer="95">v1.47</text>
-<text x="7.62" y="12.7" size="2.54" layer="95">5 Way Selector Switch Project by Cycfi Research is licensed under a 
-Creative Commons Attribution-NonCommercial 4.0 International License. 
-http://creativecommons.org/licenses/by-nc/4.0/
+<text x="177.8" y="19.05" size="2.286" layer="95" font="vector">5 Way Selector Switch</text>
+<text x="252.73" y="6.985" size="2.286" layer="95" font="vector">v1.47</text>
+<text x="7.62" y="12.7" size="2.286" layer="95" font="vector">5 Way Selector Switch Project by Cycfi Research is licensed under a 
+Creative Commons Attribution-ShareAlike 4.0 International License. 
+http://creativecommons.org/licenses/by-sa/4.0/
 
-Copyright CYCFI Research Inc. 2013-2016</text>
-<text x="200.66" y="11.43" size="2.54" layer="95">2016036</text>
+Copyright CYCFI Research Inc. 2013-2017</text>
+<text x="200.66" y="11.43" size="2.286" layer="95" font="vector">2016036</text>
 <wire x1="199.39" y1="91.44" x2="191.4525" y2="91.44" width="0.1524" layer="95"/>
 <wire x1="192.47528125" y1="25.047221875" x2="190.115640625" y2="25.047221875" width="0" layer="94"/>
 <wire x1="190.115640625" y1="25.047221875" x2="188.10833125" y2="25.047225" width="0" layer="94"/>
