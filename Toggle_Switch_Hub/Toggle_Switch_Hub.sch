@@ -4228,24 +4228,14 @@ PICKUP INPUTS</text>
 <wire x1="62.23" y1="80.01" x2="62.23" y2="85.09" width="0.4064" layer="94"/>
 <text x="46.99" y="80.01" size="1.778" layer="95">STRING 
 GND</text>
-<<<<<<< HEAD
-<text x="177.8" y="19.05" size="2.286" layer="95">Toggle Switch Hub</text>
-<text x="253.365" y="6.985" size="2.286" layer="95">v1.1</text>
-<text x="7.62" y="12.7" size="2.286" layer="95" font="fixed">Toggle Switch Hub Project by Cycfi Research is licensed under a 
-Creative Commons Attribution-ShareAlike 4.0 International License. 
-http://creativecommons.org/licenses/by-sa/4.0/
-
-Copyright CYCFI Research Inc. 2013-2017</text>
-<text x="200.66" y="11.43" size="2.286" layer="95">2016038</text>
-=======
-<text x="177.8" y="19.05" size="2.54" layer="95">Toggle Switch Hub</text>
+<text x="177.8" y="19.05" size="2.54" layer="95" font="vector">Toggle Switch Hub</text>
 <text x="253.365" y="6.985" size="2.1844" layer="95">v1.1</text>
 <text x="7.62" y="12.7" size="2.54" layer="95">Toggle Switch Hub Project by Cycfi Research is licensed under a 
 Creative Commons Attribution-ShareAlike 4.0 International License. 
+http://creativecommons.org/licenses/by-sa/4.0/ 
 
 Copyright CYCFI Research Inc. 2013-2017</text>
-<text x="200.66" y="11.43" size="2.54" layer="95">201710</text>
->>>>>>> 242c39b6e91aeeafff6b1bceba655f2654b8a973
+<text x="200.66" y="11.43" size="2.54" layer="95">2016038</text>
 <wire x1="192.47528125" y1="25.047221875" x2="190.115640625" y2="25.047221875" width="0" layer="94"/>
 <wire x1="190.115640625" y1="25.047221875" x2="188.10833125" y2="25.047225" width="0" layer="94"/>
 <wire x1="188.10833125" y1="25.047225" x2="186.10184375" y2="25.047234375" width="0" layer="94"/>
@@ -6483,8 +6473,8 @@ Copyright CYCFI Research Inc. 2013-2017</text>
 <instance part="SUPPLY2" gate="GND" x="152.4" y="74.93" rot="MR0"/>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
 <instance part="FRAME3" gate="G$2" x="162.56" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="175.26" y="1.27" size="2.286" layer="94" font="vector"/>
-<attribute name="SHEET" x="248.92" y="1.27" size="2.286" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="175.26" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="SHEET" x="248.92" y="1.27" size="2.54" layer="94" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -6728,24 +6718,14 @@ SWITCH</text>
 JACK</text>
 <text x="193.04" y="103.505" size="1.778" layer="95">VOL</text>
 <text x="193.675" y="94.615" size="1.778" layer="95">INS</text>
-<<<<<<< HEAD
-<text x="178.435" y="19.685" size="2.54" layer="95" font="fixed">Toggle Switch Hub</text>
-<text x="254" y="7.62" size="2.1844" layer="95" font="fixed">v1.1</text>
-<text x="8.255" y="13.335" size="2.54" layer="95" font="fixed">Toggle Switch Hub Project by Cycfi Research is licensed under a 
-Creative Commons Attribution-ShareAlike 4.0 International License. 
-http://creativecommons.org/licenses/by-sa/4.0/
-
-Copyright CYCFI Research Inc. 2013-2017</text>
-<text x="201.295" y="12.065" size="2.54" layer="95" font="fixed">2016038</text>
-=======
 <text x="178.435" y="19.685" size="2.54" layer="95">Toggle Switch Hub</text>
 <text x="254" y="7.62" size="2.1844" layer="95">v1.1</text>
 <text x="8.255" y="13.335" size="2.54" layer="95">Toggle Switch Hub Project by Cycfi Research is licensed under a 
 Creative Commons Attribution-ShareAlike 4.0 International License. 
+http://creativecommons.org/licenses/by-sa/4.0/ 
 
 Copyright CYCFI Research Inc. 2013-2017</text>
-<text x="201.295" y="12.065" size="2.54" layer="95">201711</text>
->>>>>>> 242c39b6e91aeeafff6b1bceba655f2654b8a973
+<text x="201.295" y="12.065" size="2.54" layer="95">2016038</text>
 <wire x1="193.11028125" y1="25.682221875" x2="190.750640625" y2="25.682221875" width="0" layer="94"/>
 <wire x1="190.750640625" y1="25.682221875" x2="188.74333125" y2="25.682225" width="0" layer="94"/>
 <wire x1="188.74333125" y1="25.682225" x2="186.73684375" y2="25.682234375" width="0" layer="94"/>
@@ -8976,8 +8956,8 @@ Copyright CYCFI Research Inc. 2013-2017</text>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0.635" y="0.635"/>
 <instance part="FRAME1" gate="G$2" x="163.195" y="0.635" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="175.895" y="1.905" size="2.54" layer="94" font="fixed"/>
-<attribute name="SHEET" x="249.555" y="1.905" size="2.54" layer="94" font="fixed"/>
+<attribute name="LAST_DATE_TIME" x="175.895" y="1.905" size="2.54" layer="94" font="vector"/>
+<attribute name="SHEET" x="249.555" y="1.905" size="2.54" layer="94" font="vector"/>
 </instance>
 </instances>
 <busses>

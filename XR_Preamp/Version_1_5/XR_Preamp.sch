@@ -5735,24 +5735,14 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="204.1525" y1="96.2025" x2="176.2125" y2="96.2025" width="0.6096" layer="94" style="shortdash"/>
 <text x="173.6725" y="98.7425" size="1.778" layer="95">NOTE:
 *Gain Adjustment Trimmer</text>
-<<<<<<< HEAD
 <text x="177.8" y="19.05" size="2.54" layer="95" font="vector">XR Preamp</text>
 <text x="252.73" y="6.985" size="2.1844" layer="95" font="vector">v1.5</text>
 <text x="7.62" y="12.7" size="2.54" layer="95" font="vector">XR Preamp Project by Cycfi Research is licensed under a Creative
-Commons Attribution-ShareAlike 4.0 International License. 
+Commons Attribution-ShareAlike 4.0 International License.
 http://creativecommons.org/licenses/by-sa/4.0/
 
 Copyright CYCFI Research Inc. 2013-2017</text>
 <text x="200.66" y="11.43" size="2.54" layer="95" font="vector">2016008</text>
-=======
-<text x="177.8" y="19.05" size="2.54" layer="95">XR Preamp</text>
-<text x="252.73" y="6.985" size="2.1844" layer="95">v1.5</text>
-<text x="7.62" y="12.7" size="2.54" layer="95">XR Preamp Project by Cycfi Research is licensed under a 
-Creative Commons Attribution-ShareAlike 4.0 International License. 
-
-Copyright CYCFI Research Inc. 2013-2017</text>
-<text x="200.66" y="11.43" size="2.54" layer="95">201716</text>
->>>>>>> 242c39b6e91aeeafff6b1bceba655f2654b8a973
 <wire x1="192.47528125" y1="25.047221875" x2="190.115640625" y2="25.047221875" width="0" layer="94"/>
 <wire x1="190.115640625" y1="25.047221875" x2="188.10833125" y2="25.047225" width="0" layer="94"/>
 <wire x1="188.10833125" y1="25.047225" x2="186.10184375" y2="25.047234375" width="0" layer="94"/>
@@ -7807,7 +7797,7 @@ Copyright CYCFI Research Inc. 2013-2017</text>
 <wire x1="235.14089375" y1="27.43605" x2="235.1615625" y2="25.047221875" width="0" layer="94"/>
 <wire x1="235.1615625" y1="25.047221875" x2="232.684540625" y2="25.047221875" width="0" layer="94"/>
 <wire x1="232.684540625" y1="25.047221875" x2="232.684540625" y2="33.356103125" width="0" layer="94"/>
-<polygon width="0.1524" layer="94">
+<polygon width="0" layer="94">
 <vertex x="192.47528125" y="25.047221875"/>
 <vertex x="178.450640625" y="25.047221875"/>
 <vertex x="177.747496875" y="25.089596875"/>
@@ -7970,7 +7960,7 @@ Copyright CYCFI Research Inc. 2013-2017</text>
 <vertex x="235.1615625" y="25.047221875"/>
 <vertex x="232.684540625" y="25.047221875"/>
 </polygon>
-<text x="248.92" y="1.27" size="2.54" layer="94" font="vector">1/2</text>
+<text x="248.92" y="1.27" size="2.54" layer="94">1/2</text>
 </plain>
 <instances>
 <instance part="T1" gate="G$1" x="105.0925" y="96.2025" smashed="yes">
@@ -8213,24 +8203,14 @@ Copyright CYCFI Research Inc. 2013-2017</text>
 <text x="128.27" y="90.805" size="1.778" layer="95">GND</text>
 <text x="128.27" y="85.4075" size="1.778" layer="95">VCC</text>
 <text x="101.6" y="137.16" size="5.08" layer="95">CASTELLATED PADS</text>
-<<<<<<< HEAD
-<text x="177.8" y="19.05" size="2.54" layer="95" font="fixed">XR Preamp</text>
-<text x="252.73" y="6.985" size="2.1844" layer="95" font="fixed">v1.5</text>
-<text x="7.62" y="12.7" size="2.54" layer="95" font="fixed">XR Preamp Project by Cycfi Research is licensed under a Creative
+<text x="177.8" y="19.05" size="2.54" layer="95">XR Preamp</text>
+<text x="252.73" y="6.985" size="2.1844" layer="95">v1.5</text>
+<text x="7.62" y="12.7" size="2.54" layer="95">XR Preamp Project by Cycfi Research is licensed under a Creative 
 Commons Attribution-ShareAlike 4.0 International License. 
 http://creativecommons.org/licenses/by-sa/4.0/
 
 Copyright CYCFI Research Inc. 2013-2017</text>
-<text x="200.66" y="11.43" size="2.54" layer="95" font="fixed">2016008</text>
-=======
-<text x="177.8" y="19.05" size="2.54" layer="95">XR Preamp</text>
-<text x="252.73" y="6.985" size="2.1844" layer="95">v1.5</text>
-<text x="7.62" y="12.7" size="2.54" layer="95">XR Preamp Project by Cycfi Research is licensed under a 
-Creative Commons Attribution-ShareAlike 4.0 International License. 
-
-Copyright CYCFI Research Inc. 2013-2017</text>
-<text x="200.66" y="11.43" size="2.54" layer="95">201715</text>
->>>>>>> 242c39b6e91aeeafff6b1bceba655f2654b8a973
+<text x="200.66" y="11.43" size="2.54" layer="95">2016008</text>
 <wire x1="192.47528125" y1="25.047221875" x2="190.115640625" y2="25.047221875" width="0" layer="94"/>
 <wire x1="190.115640625" y1="25.047221875" x2="188.10833125" y2="25.047225" width="0" layer="94"/>
 <wire x1="188.10833125" y1="25.047225" x2="186.10184375" y2="25.047234375" width="0" layer="94"/>
@@ -10448,7 +10428,7 @@ Copyright CYCFI Research Inc. 2013-2017</text>
 <vertex x="235.1615625" y="25.047221875"/>
 <vertex x="232.684540625" y="25.047221875"/>
 </polygon>
-<text x="248.92" y="1.27" size="2.54" layer="94" font="fixed">2/2</text>
+<text x="248.92" y="1.27" size="2.54" layer="94">2/2</text>
 </plain>
 <instances>
 <instance part="PAD5" gate="P" x="155.2575" y="96.8375" smashed="yes" rot="R180"/>
@@ -10458,7 +10438,7 @@ Copyright CYCFI Research Inc. 2013-2017</text>
 <instance part="PAD1" gate="P" x="154.94" y="86.36" smashed="yes" rot="R180"/>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
 <instance part="FRAME3" gate="G$2" x="162.56" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="175.26" y="1.27" size="2.54" layer="94" font="fixed"/>
+<attribute name="LAST_DATE_TIME" x="175.26" y="1.27" size="2.54" layer="94" font="vector"/>
 </instance>
 </instances>
 <busses>
