@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -4229,8 +4229,8 @@ PICKUP INPUTS</text>
 <text x="46.99" y="80.01" size="1.778" layer="95">STRING 
 GND</text>
 <text x="177.8" y="19.05" size="2.54" layer="95" font="vector">Toggle Switch Hub</text>
-<text x="253.365" y="6.985" size="2.1844" layer="95">v1.1</text>
-<text x="7.62" y="12.7" size="2.54" layer="95">Toggle Switch Hub Project by Cycfi Research is licensed under a 
+<text x="253.365" y="6.985" size="2.54" layer="95">v1.1</text>
+<text x="7.62" y="12.7" size="2.54" layer="95">Toggle Switch Hub for XR Project by Cycfi Research is licensed under a 
 Creative Commons Attribution-ShareAlike 4.0 International License. 
 http://creativecommons.org/licenses/by-sa/4.0/ 
 
@@ -6719,8 +6719,8 @@ JACK</text>
 <text x="193.04" y="103.505" size="1.778" layer="95">VOL</text>
 <text x="193.675" y="94.615" size="1.778" layer="95">INS</text>
 <text x="178.435" y="19.685" size="2.54" layer="95">Toggle Switch Hub</text>
-<text x="254" y="7.62" size="2.1844" layer="95">v1.1</text>
-<text x="8.255" y="13.335" size="2.54" layer="95">Toggle Switch Hub Project by Cycfi Research is licensed under a 
+<text x="254" y="7.62" size="2.54" layer="95">v1.1</text>
+<text x="8.255" y="13.335" size="2.54" layer="95">Toggle Switch Hub for XR Project by Cycfi Research is licensed under a 
 Creative Commons Attribution-ShareAlike 4.0 International License. 
 http://creativecommons.org/licenses/by-sa/4.0/ 
 
